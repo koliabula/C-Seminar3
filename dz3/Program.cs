@@ -13,16 +13,18 @@ Console.Clear();
 int i = 0;
 int n = 0;
 Console.WriteLine("Введите номер задачи:");
+        
 while (i == 0){
+    Console.WriteLine("1 - проверка на полиндром:");
+    Console.WriteLine("2 - расстояние между двумя точувми в 3D пространстве:");
+    Console.WriteLine("3 - Таблица кубов от 1 до N:");
     n = Convert.ToInt32(Console.ReadLine());
     if (n > 0 & n < 4){
         break;
     }
     else {
         Console.WriteLine("Введите номер задачи, которую хотите решить:");
-        Console.WriteLine("1 - проверка на полиндром:");
-        Console.WriteLine("2 - расстояние между двумя точувми в 3D пространстве:");
-        Console.WriteLine("3 - Таблица кубов от 1 до N:");
+        
 
     }
 }
